@@ -1,0 +1,69 @@
+{
+  "retrieved_on": "2026-10-31",
+  "profile": {
+    "login": "alvandyhamed",
+    "name": "hamed alvandi",
+    "bio": "Android, Java, Kotlin, React Native Developer/React Developer/Python and 10Owasp \r\n",
+    "html_url": "https://github.com/alvandyhamed",
+    "public_repos": 63,
+    "followers": 3
+  },
+  "selected_public_repositories": [
+    {
+      "name": "AI_Regresion_Model",
+      "html_url": "https://github.com/alvandyhamed/AI_Regresion_Model",
+      "fork": false,
+      "description": null,
+      "language": "Python",
+      "stargazers_count": 0
+    },
+    {
+      "name": "MyDashboardNext",
+      "html_url": "https://github.com/alvandyhamed/MyDashboardNext",
+      "fork": false,
+      "description": null,
+      "language": "TypeScript",
+      "stargazers_count": 0
+    },
+    {
+      "name": "react-native-jalali-date-picker-rtl",
+      "html_url": "https://github.com/alvandyhamed/react-native-jalali-date-picker-rtl",
+      "fork": true,
+      "description": "A simple and clean jalali datepicker for ReactNative",
+      "language": "JavaScript",
+      "stargazers_count": 3
+    },
+    {
+      "name": "singbox-proxy-dashboard",
+      "html_url": "https://github.com/alvandyhamed/singbox-proxy-dashboard",
+      "fork": false,
+      "description": "Self-hosted web dashboard for managing sing-box as a proxy/VPN gateway — subscriptions, live traffic, routing rules & server monitoring",
+      "language": "Python",
+      "stargazers_count": 1
+    },
+    {
+      "name": "Api_Scanner",
+      "html_url": "https://github.com/alvandyhamed/Api_Scanner",
+      "fork": false,
+      "description": null,
+      "language": "Go",
+      "stargazers_count": 0
+    },
+    {
+      "name": "OcrModelNemberDetect",
+      "html_url": "https://github.com/alvandyhamed/OcrModelNemberDetect",
+      "fork": false,
+      "description": null,
+      "language": "HTML",
+      "stargazers_count": 0
+    },
+    {
+      "name": "xss_finder",
+      "html_url": "https://github.com/alvandyhamed/xss_finder",
+      "fork": false,
+      "description": null,
+      "language": "Shell",
+      "stargazers_count": 0
+    }
+  ]
+}
