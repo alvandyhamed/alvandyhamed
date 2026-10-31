@@ -1,0 +1,21 @@
+name: Review profile draft
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: profile-review-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Read selected draft revision
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Validate local profile assets
+        run: python3 scripts/validate.py
+      - name: Review reminder
+        run: echo 'Validation only. No profile publication or automatic commits.' >> "$GITHUB_STEP_SUMMARY"
