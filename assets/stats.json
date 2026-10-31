@@ -1,8 +1,14 @@
 {
   "as_of": "2026-10-31",
-  "public_repositories": 63,
-  "followers": 3,
-  "public_stars_including_forks": 5,
-  "source": "https://api.github.com/users/alvandyhamed",
-  "repository_source": "https://api.github.com/users/alvandyhamed/repos?per_page=100&type=owner"
+  "total_repositories": 122,
+  "public_repositories": 64,
+  "private_repositories": 58,
+  "contributions_last_year": 254,
+  "repository_scope": "Owned repositories visible to the authenticated GitHub connector; includes forks and archived repositories.",
+  "contribution_scope": "GitHub profile rolling-year total as viewed by owner; public and private activity.",
+  "sources": [
+    "Authenticated GitHub repository search, user:alvandyhamed, pages 1 and 2",
+    "https://github.com/alvandyhamed"
+  ],
+  "refresh": "Manual snapshot; not live."
 }

@@ -10,12 +10,14 @@ for path in (root/'assets').glob('*.svg'):
 for path in re.findall(r'(?:src|srcset)="([^"]+)"',(root/'README.md').read_text()):
     assert (root/path).is_file(),path
 stats=json.loads((root/'assets/stats.json').read_text())
-for key in ['public_repositories','followers','public_stars_including_forks']:
+for key in ['total_repositories','public_repositories','private_repositories','contributions_last_year']:
     assert type(stats[key]) is int and stats[key]>=0
 for theme in ['dark','light']:
     text=(root/f'assets/stats-{theme}.svg').read_text()
     assert stats['as_of'] in text
-    for key in ['public_repositories','followers','public_stars_including_forks']:
+    for key in ['total_repositories','public_repositories','private_repositories','contributions_last_year']:
         assert f'>{stats[key]}</text>' in text
 assert 'DRAFT PROFILE' in (root/'README.md').read_text()
 print('PASS: SVG safety, local README images, dated statistics and draft label')
+
+assert stats['total_repositories'] == stats['public_repositories'] + stats['private_repositories']

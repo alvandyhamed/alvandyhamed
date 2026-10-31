@@ -43,15 +43,15 @@ These are public repository links, not claims of production readiness or sole au
 - [Api_Scanner](https://github.com/alvandyhamed/Api_Scanner): public Go repository; proposed API security tooling case study (**draft**, inferred from name; capabilities pending review).
 - [xss_finder](https://github.com/alvandyhamed/xss_finder): public Shell repository; proposed XSS tooling case study (**draft**, inferred from name; capabilities pending review).
 
-## 05 / Public GitHub snapshot
+## 05 / GitHub activity snapshot
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
-  <img src="assets/stats-light.svg" alt="Public GitHub statistics snapshot, dated 2026-10-31; see assets/stats.json for values and sources." width="960">
+  <img src="assets/stats-light.svg" alt="122 total repositories: 64 public, 58 private; 254 contributions in the last year. Snapshot 2026-10-31." width="960">
 </picture>
 
-Snapshot only. Repository count includes forks. Stars sum public owned repositories including forks; these are not personal contribution or impact measures. [Machine-readable values](assets/stats.json).
+Owner-approved aggregate snapshot dated 2026-10-31: **122 owned repositories — 64 public and 58 private; 254 contributions in the last year**. Repository counts include forks and archived repositories. Contributions are GitHub activity events, not hours worked or a commit-only count. Private repository names and contents are not disclosed. This card is manually refreshed; the contribution calendar below is maintained by GitHub. [Machine-readable values](assets/stats.json).
 
 ## 06 / Connect
 
